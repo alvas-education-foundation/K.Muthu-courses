@@ -1,0 +1,1 @@
+"""Python Pandas program to get the details of all the ST_NAME column"""import numpy as npimport pandas as pddata=pd.read_csv('property_data.csv')print("All the details of ST_NAME : ")print(data[['ST_NAME']])
