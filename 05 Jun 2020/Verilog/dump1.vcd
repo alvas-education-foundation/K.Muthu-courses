@@ -1,0 +1,29 @@
+$date
+	Fri Jun  5 10:11:26 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$var wire 5 ! out [4:0] $end
+$var reg 16 " in [15:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b10000 !
+$end
+#100
+b100 !
+b1010111110101111 "
+#200
+b1001 !
+b1000101111010000 "
+#300
+b0 !
+b1111111111111111 "
+#500
